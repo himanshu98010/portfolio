@@ -33,7 +33,7 @@ const Projects = () => {
         "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500",
       technologies: ["React", "OpenWeather API", "Chart.js"],
       github: "https://github.com/himanshu98010/weather-app",
-      demo: "https://demo-weather.com",
+      demo: "https://himanshu-weather-app12.netlify.app/",
     },
     {
       title: "Portfolio Website",
