@@ -2,48 +2,48 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github } from "lucide-react";
+import weatherImg from "../assets/weather.png";
+import trackerImg from "../assets/tracker.png";
+import animateImg from "../assets/animated.png";
+import BackendImg from "../assets/Backend.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description:
-        "A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/himanshu98010/ecommerce",
-      demo: "https://demo-ecommerce.com",
+      title: "Currency Tracker",
+      description: "A crypto currency tracker and convertor.",
+      image: trackerImg,
+      technologies: ["React", "Node.js", "Tailwind CSS"],
+      github: "https://github.com/himanshu98010/crypto-currency-tracker",
+      demo: "https://crypto-tracker-himanshu.vercel.app/",
       featured: true,
     },
     {
-      title: "Task Management App",
+      title: "Backend of a course selling app",
       description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/himanshu98010/task-manager",
-      demo: "https://demo-tasks.com",
+        "Backend using MongoDb with Authentication using JWT's and CRUD operations",
+      image: BackendImg,
+      technologies: ["React", "MongoDb", "JWT"],
+      github: "https://github.com/himanshu98010/Backend-project",
+      demo: "https://github.com/himanshu98010/Backend-project",
     },
     {
       title: "Weather Dashboard",
       description:
         "A beautiful weather application with forecasts, location search, and interactive maps.",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500",
+      image: weatherImg,
       technologies: ["React", "OpenWeather API", "Chart.js"],
       github: "https://github.com/himanshu98010/weather_app",
       demo: "https://himanshu-weather-app12.netlify.app/",
     },
     {
-      title: "Portfolio Website",
+      title: "Animated Portfolio Website",
       description:
-        "A responsive portfolio website with dark mode, animations, and contact form.",
-      image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/himanshu98010/portfolio",
-      demo: "https://himanshu-portfolio.com",
+        "A responsive and Animated portfolio website with dark mode, Smooth animations, and contact form.",
+      image: animateImg,
+      technologies: ["React", "Gsap", "Tailwind CSS"],
+      github: "https://github.com/himanshu98010/batman-portfolio",
+      demo: "https://himanshusuthar1.vercel.app/",
     },
   ];
 
