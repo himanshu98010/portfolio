@@ -54,7 +54,6 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Tailwind CSS"],
       github: "https://github.com/himanshu98010/crypto-currency-tracker",
       demo: "https://crypto-tracker-himanshu.vercel.app/",
-      featured: true,
     },
   ];
 
