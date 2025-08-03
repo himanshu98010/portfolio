@@ -6,16 +6,18 @@ import weatherImg from "../assets/weather.png";
 import trackerImg from "../assets/tracker.png";
 import animateImg from "../assets/animated.png";
 import BackendImg from "../assets/Backend.png";
+import WellnessImg from "../assets/wellness.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Currency Tracker",
-      description: "A crypto currency tracker and convertor.",
-      image: trackerImg,
-      technologies: ["React", "Node.js", "Tailwind CSS"],
-      github: "https://github.com/himanshu98010/crypto-currency-tracker",
-      demo: "https://crypto-tracker-himanshu.vercel.app/",
+      title: "Wellness Platform",
+      description:
+        "A platform for wellness services with user authentication, user sessions and a dashboard.",
+      image: WellnessImg,
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      github: "https://github.com/himanshu98010/backend-1",
+      demo: "https://arvyax-demo.vercel.app/",
       featured: true,
     },
     {
@@ -44,6 +46,15 @@ const Projects = () => {
       technologies: ["React", "Gsap", "Tailwind CSS"],
       github: "https://github.com/himanshu98010/batman-portfolio",
       demo: "https://himanshusuthar1.vercel.app/",
+    },
+    {
+      title: "Currency Tracker",
+      description: "A crypto currency tracker and convertor.",
+      image: trackerImg,
+      technologies: ["React", "Node.js", "Tailwind CSS"],
+      github: "https://github.com/himanshu98010/crypto-currency-tracker",
+      demo: "https://crypto-tracker-himanshu.vercel.app/",
+      featured: true,
     },
   ];
 
